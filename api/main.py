@@ -14,3 +14,6 @@ app.add_middleware(
 def inicio():
     return {'message': 'api de prueba github'}
 
+@app.get('/hola')
+def hola():
+    return {'message': 'hola mundo api de prueba github'}
